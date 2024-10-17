@@ -66,6 +66,9 @@ footer{
 .resposta-cartao{
     font-weight: 700;
     color: var(--destaque);
+    background-color: var(--cartao-verso);
+    transform: rotateY(180deg)
+    border: 2px solid var(var(--destaque))
 }
 
 .cartao:hover .conteudo-cartao{
@@ -75,4 +78,8 @@ footer{
 .pergunta-cartao,
 .resposta-cartao{
     backface-visibility: hidden;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+
 }
