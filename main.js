@@ -4,12 +4,12 @@ function criaCartao(categoria, pergunta, resposta) {
     cartao.localName = 'cartao';
     cartao.innerHTML = `
     <div class="conteudo-cartao">
-    <h3>categoria</h3>
+    <h3>${categoria}</h3>
 <div class="pergunta-cartao">
-    <p>perguntas</p>
+    <p>${perguntas}</p>
 </div>
 <div class="resposta-cartao">
-    <p>resposta</p>
+    <p>${resposta}</p>
 </div>
 </div>
     `
