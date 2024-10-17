@@ -68,7 +68,7 @@ footer{
     color: var(--destaque);
     background-color: var(--cartao-verso);
     transform: rotateY(180deg)
-    border: 2px solid var(--destaque))
+    border: 2px solid var(--destaque)
 }
 
 .cartao:hover .conteudo-cartao{
