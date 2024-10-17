@@ -1,17 +1,17 @@
-:root{
+:root {
     --fundo: #2F4F4F;
     --cartao-frente: #008080;
     --cartao-verso: #4682B4;
     --destaque: #5F9EA0;
-    --preto:#000000;
-    --branco:#ffffff;
+    --preto: #000000;
+    --branco: #ffffff;
 }
 
-body{
+body {
     background-color: var(--fundo);
 }
 
-footer{
+footer {
     position: fixed;
     bottom: 0;
     background-color: var(--preto);
@@ -20,21 +20,21 @@ footer{
     text-align: center;
 }
 
-#container{
+#container {
     padding: 4rem;
     display: flex;
     gap: 3rem;
     flex-wrap: wrap;
 }
 
-.cartao{
+.cartao {
     flex-grow: 1;
     flex-basis: calc(33% - 6rem);
     height: 20rem;
     margin: 1rem;
 }
 
-.conteudo-cartao{
+.conteudo-cartao {
     background-color: var(--cartao-frente);
     height: 100%;
     text-align: center;
@@ -42,7 +42,7 @@ footer{
     transition: transform 300ms ease-in-out;
 }
 
-.conteudo-cartao h3{
+.conteudo-cartao h3 {
     position: absolute;
     text-align: left;
     color: var(--destaque);
@@ -54,28 +54,30 @@ footer{
     backface-visibility: hidden;
 }
 
-.conteudo-cartao p{
+.conteudo-cartao p {
     font-size: 1.4vw;
     margin-top: 4rem;
     padding: 2rem;
 }
-.pergunta-cartao{
+
+.pergunta-cartao {
     font-weight: 500;
 }
-.resposta-cartao{
+
+.resposta-cartao {
     font-weight: 700;
     color: var(--destaque);
     background-color: var(--cartao-verso);
-    transform: rotateY(180deg)
+    transform: rotateY(180deg) 
     border: 2px solid var(--destaque)
 }
 
-.cartao:hover .conteudo-cartao{
+.cartao:hover .conteudo-cartao {
     transform: rotateY(180deg);
 }
 
 .pergunta-cartao,
-.resposta-cartao{
+.resposta-cartao {
     backface-visibility: hidden;
     position: absolute;
     height: 100%;
