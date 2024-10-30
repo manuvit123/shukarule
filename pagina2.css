@@ -31,3 +31,15 @@ footer {
     width: 100%;
     text-align: center;
 }
+
+#container{
+    padding: 40px;
+    display: grid;
+    gap: 2rem;
+
+}
+
+.cartao{
+    background-color: var(--cartao-frente);
+    padding: 40px;
+}
