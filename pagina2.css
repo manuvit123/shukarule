@@ -36,7 +36,6 @@ footer {
     padding: 40px;
     display: grid;
     gap: 2rem;
-
 }
 
 .cartao{
@@ -47,12 +46,10 @@ footer {
 }
 
 .cartao:hover{
-    transform: scale(1,05);
+    transform: scale(1.05);
 }
 
 .resposta-cartao{
     background-color: var(--cartao-verso);
     padding: 40px;
-    color: var(--branco);
-    display: none;
 }
